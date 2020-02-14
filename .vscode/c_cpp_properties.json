@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/drw/.arduino15/packages/STM32/tools/xpack-arm-none-eabi-gcc/9.2.1-1.1/arm-none-eabi/include/**"
+            ],
+            "defines": [
+                "STM32F1xx",
+                "ARDUINO=10811",
+                "ARDUINO_BLUEPILL_F103C8",
+                "ARDUINO_ARCH_STM32",
+                "BOARD_NAME=\"BLUEPILL_F103C8\"",
+                "STM32F103xB",
+                "HAL_UART_MODULE_ENABLED"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
