@@ -13,7 +13,13 @@
                 "ARDUINO_ARCH_STM32",
                 "BOARD_NAME=\"BLUEPILL_F103C8\"",
                 "STM32F103xB",
-                "HAL_UART_MODULE_ENABLED"
+                "HAL_UART_MODULE_ENABLED",
+                "USBCON",
+                "USBD_VID=0x0483",
+                "USB_MANUFACTURER=\"Unknown\"",
+                "USB_PRODUCT=\"BLUEPILL_F103C8\"",
+                "HAL_PCD_MODULE_ENABLED",
+                "USBD_USE_HID_COMPOSITE"
             ],
             "compilerPath": "/usr/bin/arm-none-eabi-gcc",
             "cStandard": "c11",
